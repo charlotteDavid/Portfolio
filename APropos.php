@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortfolioFin</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -21,16 +21,16 @@
 <body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html">Charlotte David&lt;Bts Sio_Slam/&gt;</a>
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.php">Charlotte David&lt;Bts Sio_Slam/&gt;</a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="APropos">A Propos</a></li>
-                    <li role="presentation"><a href="Portfolio.html">Portfolio </a></li>
-                    <li role="presentation"><a href="Competences.html">Compétences </a></li>
-                    <li role="presentation"><a href="veille.html">Veille technologique</a></li>
-                    <li role="presentation"><a href="contact.html">Contact </a></li>
+                    <li role="presentation"><a href="APropos.php">A Propos</a></li>
+                    <li role="presentation"><a href="Portfolio.php">Portfolio </a></li>
+                    <li role="presentation"><a href="Competences.php">Compétences </a></li>
+                    <li role="presentation"><a href="veille.php">Veille technologique</a></li>
+                    <li role="presentation"><a href="contact.php">Contact </a></li>
                 </ul>
             </div>
         </div>
@@ -148,7 +148,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-center"><a title="CV - Charlotte David" href="Portfoliofin/donnees/cv.pdf" target="_blank"><i class="fa fa-download fa-1x"></i>Télécharger mon CV</a></p>
+                    <p class="text-center"><a title="CV - Charlotte David" href="cv.pdf" target="_blank"><i class="fa fa-download fa-1x"></i>Télécharger mon CV</a></p>
                     <div></div>
                     <section></section>
                     <a class="text-uppercase" href="#"> </a>

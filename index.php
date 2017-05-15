@@ -4,14 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortfolioFin</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
-    <link rel="stylesheet" href="assets/css/Contact-FormModal-Contact-Form-with-Google-Map.css">
     <link rel="stylesheet" href="assets/css/MUSA_timeline.css">
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -26,11 +25,11 @@
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="APropos.html">A Propos</a></li>
-                    <li role="presentation"><a href="Portfolio.html">Portfolio </a></li>
-                    <li role="presentation"><a href="Competences.html">Compétences </a></li>
-                    <li role="presentation"><a href="veille.html">Veille technologique</a></li>
-                    <li role="presentation"><a href="contact.html">Contact </a></li>*
+                    <li role="presentation"><a href="APropos.php">A Propos</a></li>
+                    <li role="presentation"><a href="Portfolio.php">Portfolio </a></li>
+                    <li role="presentation"><a href="Competences.php">Compétences </a></li>
+                    <li role="presentation"><a href="veille.php">Veille technologique</a></li>
+                    <li role="presentation"><a href="contact.php">Contact </a></li>
                     <li role="presentation"><a href="comment.php">C'est à vous </a></li>
                 </ul>
             </div>
@@ -53,9 +52,12 @@
     </div>
     <footer></footer>
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Contact-FormModal-Contact-Form-with-Google-Map.js"></script>
     <script src="assets/js/effet.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
 </body>
 
 </html>
+

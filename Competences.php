@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortfolioFin</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -21,27 +21,24 @@
 <body>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.html">Charlotte David&lt;Bts Sio_Slam/&gt;</a>
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.php">Charlotte David&lt;Bts Sio_Slam/&gt;</a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li role="presentation"><a href="APropos.html">A Propos</a></li>
-                    <li role="presentation"><a href="Portfolio.html">Portfolio </a></li>
+                    <li role="presentation"><a href="APropos.php">A Propos</a></li>
+                    <li role="presentation"><a href="Portfolio.ph">Portfolio </a></li>
                     <li role="presentation"><a href="#">Compétences </a></li>
-                    <li role="presentation"><a href="veille.html">Veille technologique</a></li>
-                    <li role="presentation"><a href="contact.html">Contact </a></li>
+                    <li role="presentation"><a href="veille.php">Veille technologique</a></li>
+                    <li role="presentation"><a href="contact.php">Contact </a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <h1 class="text-center">Compétences </h1>
     <p>vues pendant le BTS SIO opion SLAM</p>
-    <div>
-        
+       
 
-
-<div class="container">
 
     <div class="container-fluid">
        <h2>Languages</h2>
@@ -58,10 +55,10 @@
     <div class="skill-bar-percent">50%</div>
 </div> <!-- End Skill Bar -->
 
-<div class="skillbar clearfix " data-percent="15%">
+<div class="skillbar clearfix " data-percent="35%">
     <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
     <div class="skillbar-bar" style="background: #2c3e50;"></div>
-    <div class="skill-bar-percent">15%</div>
+    <div class="skill-bar-percent">35%</div>
 </div> <!-- End Skill Bar -->
 
 <div class="skillbar clearfix " data-percent="40%">
@@ -87,12 +84,11 @@
 </div> <!-- End Skill Bar -->
 
 <div class="skillbar clearfix " data-percent="50%">
-    <div class="skillbar-title" style="background: #2c3e50;"><span>Boostrapp</span></div>
+    <div class="skillbar-title" style="background: #2c3e50;"><span>Boostrap</span></div>
     <div class="skillbar-bar" style="background: #2c3e50;"></div>
     <div class="skill-bar-percent">50%</div>
 </div> <!-- End Skill Bar -->
-       
-    </div>
+
    
   
       <h2>IDE</h2>
