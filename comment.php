@@ -6,17 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortfolioFin</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Article-Clean.css">
-    <link rel="stylesheet" href="assets/css/Article-List.css">
-    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
-    <link rel="stylesheet" href="assets/css/Contact-FormModal-Contact-Form-with-Google-Map.css">
-    <link rel="stylesheet" href="assets/css/MUSA_timeline.css">
-    <link rel="stylesheet" href="assets/css/Social-Icons.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
+    <?php include 'assets/css/css.php' ?>
 </head>
 
 <body>
@@ -37,7 +30,17 @@
         </div>
     </nav>
 
-<?php
+
+        <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-custom">
+                <div class="col-md-12" style="width:300px;height:100px;">
+                        <?php
 // Connexion à la base de données
 try
 {
@@ -64,26 +67,37 @@ echo '</div>';
 } 
 $req->closeCursor();
 ?>
-<div class="well">
-    <h4>Laissez un commentaire</h4>
-    <form method="post" action="post_comment.php" class="clearfix">
-        <div class="col-md-6 form-group">
-            <label class="sr-only" for="pseudo">pseudo</label>
-            <input type="text" class="form-control" name="pseudo" placeholder="Pseudo">
+                    
+                    
+                    
+                    
+                </div>
+                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" style="padding:0; position :fixed;">
+                    <div class="well">
+                        <h3 class="text-danger">Laissez un commentaire</h3>
+                        <form method="post" action="post_comment.php" class="clearfix">
+                            <div class="form-group">
+                                <label class="control-label">Pseudo </label>
+                                <input class="form-control" type="text" name="pseudo">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">E-mail </label>
+                                <input class="form-control" type="text" name="email">
+                            </div>
+                
+                            <div class="form-group">
+                                <label class="control-label">Commentaire </label>
+                                <textarea class="form-control" rows="12" name="commentaire"></textarea>
+                            </div>
+                      
+                            <button class="btn btn-primary" type="submit">Envoyer </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
- 
-        <div class="col-md-12 form-group">
-            <label class="sr-only" for="commentaire">Commentaire</label>
-            <textarea class="form-control" name="commentaire" placeholder="Commentaire"></textarea>
-        </div>
- 
-        <div class="col-md-12 form-group text-right">
-            <button type="submit" class="btn btn-primary">envoyer</button>
-        </div>
-    </form>
-</div>
-    <header></header>
-    <div></div>
+    </div>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Contact-FormModal-Contact-Form-with-Google-Map.js"></script>

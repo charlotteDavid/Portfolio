@@ -20,14 +20,14 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li role="presentation"><a href="APropos.php">A Propos</a></li>
                     <li role="presentation"><a href="Portfolio.ph">Portfolio </a></li>
-                    <li role="presentation"><a href="#">Compétences </a></li>
+                    <li role="presentation"><a href="#">Connaissances </a></li>
                     <li role="presentation"><a href="veille.php">Veille technologique</a></li>
                     <li role="presentation"><a href="contact.php">Contact </a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <h1 class="text-center">Compétences </h1>
+    <h1 class="text-center">Connaissances </h1>
     <p>vues pendant le BTS SIO opion SLAM</p>
        
 
@@ -48,7 +48,7 @@
 </div> <!-- End Skill Bar -->
 
 <div class="skillbar clearfix " data-percent="35%">
-    <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+    <div class="skillbar-title" style="background: #2c3e50;"><span>JS</span></div>
     <div class="skillbar-bar" style="background: #2c3e50;"></div>
     <div class="skill-bar-percent">35%</div>
 </div> <!-- End Skill Bar -->
@@ -106,7 +106,7 @@
 </div> <!-- End Skill Bar -->
 
 <div class="skillbar clearfix " data-percent="60%">
-    <div class="skillbar-title" style="background: #2980b9;"><span>Boostrapp Studio</span></div>
+    <div class="skillbar-title" style="background: #2980b9;"><span>Boot.Studio</span></div>
     <div class="skillbar-bar" style="background: #3498db;"></div>
     <div class="skill-bar-percent">60%</div>
 </div> <!-- End Skill Bar -->

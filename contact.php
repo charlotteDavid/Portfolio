@@ -21,7 +21,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li role="presentation"><a href="APropos.php">A Propos</a></li>
                     <li role="presentation"><a href="Portfolio.php">Portfolio </a></li>
-                    <li role="presentation"><a href="Competences.php">Compétences </a></li>
+                    <li role="presentation"><a href="Competences.php">Connaissances </a></li>
                     <li role="presentation"><a href="veille.php">Veille technologique</a></li>
                     <li role="presentation"><a href="#contact">Contact </a></li>
                 </ul>
