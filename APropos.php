@@ -52,7 +52,7 @@
 			</div>
 			
 			<div class="timeline-label">
-				<h2>BTS SIO option SLAM à la Greta de Vannes (Morbihan) </h2>
+				<h2>BTS SIO option SLAM au Greta de Vannes (Morbihan) </h2>
 			</div>
 		</div>
 	</article>

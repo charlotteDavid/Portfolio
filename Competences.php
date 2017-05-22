@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li role="presentation"><a href="APropos.php">A Propos</a></li>
-                    <li role="presentation"><a href="Portfolio.ph">Portfolio </a></li>
+                    <li role="presentation"><a href="Portfolio.php">Portfolio </a></li>
                     <li role="presentation"><a href="#">Connaissances </a></li>
                     <li role="presentation"><a href="veille.php">Veille technologique</a></li>
                     <li role="presentation"><a href="contact.php">Contact </a></li>

@@ -5,14 +5,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortfolioFin</title>
+    <title>Portfolio</title>
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <?php include 'assets/css/css.php' ?>
 </head>
 
-<body>
+<body style='background-image: url("assets/img/board.jpg");'>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header"><a class="navbar-brand navbar-link" href="index.php">Charlotte David&lt;Bts Sio_Slam/&gt;</a>
@@ -22,7 +22,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li role="presentation"><a href="APropos.php">A Propos</a></li>
                     <li role="presentation"><a href="Portfolio.php">Portfolio </a></li>
-                    <li role="presentation"><a href="Competences.php">Compétences </a></li>
+                    <li role="presentation"><a href="Competences.php">Connaissances </a></li>
                     <li role="presentation"><a href="veille.php">Veille technologique</a></li>
                     <li role="presentation"><a href="contact.php">Contact </a></li>
                     <li role="presentation"><a href="comment.php">C'est à vous </a></li>
@@ -30,16 +30,18 @@
             </div>
         </div>
     </nav>
-
+    
+  
     <div class="container"><br>
-            <div class="row">
+            <div class="row" style="padding-bottom:45px;">
+                   <p class="typeEcriture"></p>
                 <div class="col-md-12"></div>
             </div>
         </div>
         <div class="container">
             <div class="row row-custom">
                 <div class="col-md-12" style="width:400px;height:100px;">
-                        <?php
+    <?php
 // Connexion à la base de données
 try
 {
@@ -55,11 +57,12 @@ $req->execute();
 while ($donnees = $req->fetch())
 {
 $pseudo =  $donnees['pseudo'];
+$date = $donnees['date'];
 $mail =  $donnees['email'];
 $comment = $donnees['contenu'];
 //echo '<div class="col-sm-5">';
 echo '<div class="panel panel-default">';
-echo'<div class="panel-heading"> '.$pseudo.'</div>';
+echo'<div class="panel-heading"> '.$pseudo.' '.$date.'</div>';
 echo'<div class="panel-body" id="message_comment">'.$comment.'</div>';
 echo '</div>';
 //echo '</div>';
@@ -99,8 +102,13 @@ $req->closeCursor();
 
 
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/typeit.min.js"></script>
     <script src="assets/js/effet.js"></script>
+   
+
+
 </body>
 
 </html>

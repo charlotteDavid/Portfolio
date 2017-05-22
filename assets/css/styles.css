@@ -239,3 +239,10 @@ Additional Styles (required)
     overflow: hidden;
       word-wrap: break-word;   
 }
+
+
+.typeEcriture{
+    font-size: large;
+    color:white;
+    font-family: 'craie',cursive;
+}

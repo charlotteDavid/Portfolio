@@ -49,10 +49,12 @@
                     
                 </div>
                 <div class="col-md-4 col-sm-6 item">
-                    <a href="#"><img class="img-responsive" src="assets/img/desk.jpg"></a>
-                    <h3 class="name">PPE </h3>
-                    <p class="text-center">A Venir </p>
-                    
+             
+                    <a href="assets/img/ludo.PNG" target="blank"><img class="img-responsive" src="assets/img/ludo.PNG" style="max-height: 136px; margin-left: 50px;" ></a>
+                    <h3 class="name">PPE Ludothèque </h3>
+                    <p class="description">Plateforme d'échange de jeux de société.</p><br>
+                    <p class="text-center"><a title="ludothèque" href="https://github.com/SACMVK/LudothequeBTS" target="_blank">Lien vers GitHub</a></p>
+                                  
                 </div>
             </div>
         </div>

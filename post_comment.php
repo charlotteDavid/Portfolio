@@ -9,7 +9,7 @@ catch(Exception $e)
 {
         die('Erreur : '.$e->getMessage());
 }
-$req = $bdd->prepare('INSERT INTO comment(pseudo,contenu,email) VALUES(?,?,?)');
+$req = $bdd->prepare('INSERT INTO comment(pseudo,contenu,email,date) VALUES(?,?,?,NOW())');
 $req->execute(array($_POST['pseudo'], $_POST['commentaire'],$_POST['email']));
 
 

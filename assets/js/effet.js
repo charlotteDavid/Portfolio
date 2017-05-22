@@ -15,3 +15,11 @@
              interval: 2000
          });
     });    
+
+
+
+$('.typeEcriture').typeIt({
+     strings: 'Bienvenue, partagez vos idées , vos remarques .. A vous de Jouer !',
+     speed: 150,
+     autoStart: false
+});
