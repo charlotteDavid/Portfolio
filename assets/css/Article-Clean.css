@@ -72,6 +72,7 @@ footer {
   text-align:center;
   left:0;
   bottom:0;
+  margin:auto;
   
 }
 
@@ -80,8 +81,7 @@ footer.container-fluid.text-center.bg-lightgray {
   font-size:small;
 }
 
-span {
-}
+
 
 h1.text-center {
   font-family:'raleway';

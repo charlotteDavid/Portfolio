@@ -43,7 +43,7 @@
 // Connexion à la base de données
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=portfolio;charset=utf8', 'root', '');
+     $bdd = new PDO('mysql:host=charlottxzdavid.mysql.db;dbname=charlottxzdavid;','charlottxzdavid','tJ3wMb63');
 }
 catch(Exception $e)
 {
@@ -95,7 +95,8 @@ $req->closeCursor();
                 </div>
             </div>
         </div>
-    </div>
+  
+
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

@@ -154,22 +154,7 @@
     </div>
             
 	</article>
-        <article class="timeline-entry left-aligned">
-		
-		<div class="timeline-entry-inner">
-			<time class="timeline-time" datetime="2014-01-10T03:45"><span>Février 2013</span> <span></span></time>
-			
-			<div class="timeline-icon bg-warning">
-				<i class="entypo-camera"></i>
-			</div>
-			
-			<div class="timeline-label">
-				<h2>Voyage en Laponie<span></span></h2>
-                                <img class="img-responsive" src="assets/img/norvege.jpg">
-                                jamenpercy - Fotolia
-			</div>
-		</div>	
-	</article>
+
 	
 	<article class="timeline-entry">
 		

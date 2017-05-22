@@ -1,9 +1,9 @@
 <?php
-session_start();//on démarre la session
+
 
 try
 {
-    $bdd = new PDO('mysql:host=charlottxzdavid.mysql.db;dbname=charlottxzdavid;charset=utf8','charlottxzdavid','tJ3wMb63');
+    $bdd = new PDO('mysql:host=charlottxzdavid.mysql.db;dbname=charlottxzdavid;','charlottxzdavid','tJ3wMb63');
 }
 catch(Exception $e)
 {
