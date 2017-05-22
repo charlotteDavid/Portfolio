@@ -24,22 +24,21 @@
                     <li role="presentation"><a href="Portfolio.php">Portfolio </a></li>
                     <li role="presentation"><a href="Competences.php">Compétences </a></li>
                     <li role="presentation"><a href="veille.php">Veille technologique</a></li>
-                    <li role="presentation"><a href="#contact">Contact </a></li>
+                    <li role="presentation"><a href="contact.php">Contact </a></li>
+                    <li role="presentation"><a href="comment.php">C'est à vous </a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
-        <div>
-        <div class="container">
+    <div class="container"><br>
             <div class="row">
                 <div class="col-md-12"></div>
             </div>
         </div>
         <div class="container">
             <div class="row row-custom">
-                <div class="col-md-12" style="width:300px;height:100px;">
+                <div class="col-md-12" style="width:400px;height:100px;">
                         <?php
 // Connexion à la base de données
 try
@@ -56,11 +55,12 @@ $req->execute();
 while ($donnees = $req->fetch())
 {
 $pseudo =  $donnees['pseudo'];
+$mail =  $donnees['email'];
 $comment = $donnees['contenu'];
 //echo '<div class="col-sm-5">';
 echo '<div class="panel panel-default">';
-echo'<div class="panel-heading">'.$pseudo.'</div>';
-echo'<div class="panel-body">'.$comment.'</div>';
+echo'<div class="panel-heading"> '.$pseudo.'</div>';
+echo'<div class="panel-body" id="message_comment">'.$comment.'</div>';
 echo '</div>';
 //echo '</div>';
 
@@ -68,9 +68,7 @@ echo '</div>';
 $req->closeCursor();
 ?>
                     
-                    
-                    
-                    
+                                    
                 </div>
                 <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" style="padding:0; position :fixed;">
                     <div class="well">
@@ -89,6 +87,7 @@ $req->closeCursor();
                                 <label class="control-label">Commentaire </label>
                                 <textarea class="form-control" rows="12" name="commentaire"></textarea>
                             </div>
+                          
                       
                             <button class="btn btn-primary" type="submit">Envoyer </button>
                         </form>
@@ -99,8 +98,7 @@ $req->closeCursor();
     </div>
 
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/Contact-FormModal-Contact-Form-with-Google-Map.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/effet.js"></script>
 </body>
 

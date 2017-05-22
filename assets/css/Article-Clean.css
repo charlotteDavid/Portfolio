@@ -58,23 +58,7 @@
   max-width:100%;
 }
 
-img.img-responsive {
-  /*width:50%;*/
-  /*margin:auto;*/
-}
 
-div.container {
-}
-
-body {
-}
-
-html {
-}
-
-p.text-center {
-  /*font-size:x-large;*/
-}
 
 i.glyphicon.glyphicon-download {
   font-size:1.2em;
@@ -88,11 +72,9 @@ footer {
   text-align:center;
   left:0;
   bottom:0;
+  
 }
 
-p.text-center {
-  padding-bottom:2%;
-}
 
 footer.container-fluid.text-center.bg-lightgray {
   font-size:small;

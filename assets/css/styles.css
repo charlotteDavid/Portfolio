@@ -13,17 +13,18 @@ p {
 }
 
 body {
-  background-color:#D4D5D4;
+  position: relative;
   height:100%;
   border:0px solid transparent;
   margin:0px 0px 0px 0px;
   min-height:100%;
   padding:0px 0px 0px 0px;
   width:100%;
-  width:90%;
   margin:auto;
-  width:100%;
-  margin:auto;
+  font-size:14px;
+  line-height:1.42857143;
+  color:#333;
+  background-color:#fff;
 }
 
 ul.nav.navbar-nav.navbar-right {
@@ -34,11 +35,6 @@ a.navbar-brand.navbar-link {
   font-size:large;
 }
 
-body {
-  font-family:"Raleway",Helvetica,Arial,sans-serif;
-  font-size:14px;
-  line-height:1.42857143;
-}
 
 .glyphicon {
   position:relative;
@@ -67,13 +63,6 @@ blockquote {
   width:100%;
 }
 
-body {
-  font-family:"Raleway",Helvetica,Arial,sans-serif;
-  font-size:14px;
-  line-height:1.42857143;
-  color:#333;
-  background-color:#fff;
-}
 
 .navbar-default {
   background-color:rgb(0,59,128);
@@ -242,4 +231,11 @@ Additional Styles (required)
 .carousel-inner .caption {
 	background:#ddd;
 	padding: 10px;
+}
+
+
+
+#message_comment{
+    overflow: hidden;
+      word-wrap: break-word;   
 }

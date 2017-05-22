@@ -21,6 +21,7 @@
                     <li role="presentation"><a href="Competences.php">Connaissances </a></li>
                     <li role="presentation"><a href="veille.php">Veille technologique</a></li>
                     <li role="presentation"><a href="contact.php">Contact </a></li>
+                    <li role="presentation"><a href="comment.php">C'est à vous </a></li>
                 </ul>
             </div>
         </div>
@@ -33,7 +34,7 @@
     <div>
         <div class="container">
             <div class="row">
-                <div class="col-md-12"><span style="font-size: medium;">Je m'appelle Charlotte David, j'ai 27 ans et aprés 4 ans d'exercice en tant que infirmiére je souhaite me reconvertir en développeuse Web front-end. Je suis actuellement en BTS SIO (Services Informatiques aux Organisations) ,spécialité SLAM (Solutions Logicielles et Applications Métiers) effectué au sein de la GRETA à Vannes. </span></div>
+                <div class="col-md-12"><span style="font-size: medium;">Je m'appelle Charlotte David, j'ai 27 ans et aprés 4 ans d'exercice en tant que infirmiére je souhaite me reconvertir en développeuse Web front-end. Je suis actuellement en BTS SIO (Services Informatiques aux Organisations) ,spécialité SLAM (Solutions Logicielles et Applications Métiers) effectué au sein du GRETA à Vannes. </span></div>
             </div>
         </div>
     </div>
@@ -228,14 +229,14 @@
             </div>
         </div>
     </div>
+    
+  
     <footer class="container-fluid text-center bg-lightgray">
 
         <div class="copyrights" style="margin-top:5px; ">
              <span > <a href="https://fr.linkedin.com/in/charlotte-david" target="_blank" style="font-size:medium;">Suivez-Moi sur LinkedIn </a></span>
             <p>Charlotte David © 2017, All Rights Reserved
-       
-             
-           
+      
         </div>
 </footer>
 
@@ -243,13 +244,7 @@
     <script src="assets/js/jquery.min.js"></script>
      <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/effet.js"></script>
-    <script type='text/javascript'>
-    $(document).ready(function() {
-         $('#myCarousel').carousel({
-             interval: 2000
-         });
-    });    
-</script>
-</body>
+    
 
+  </body>
 </html>

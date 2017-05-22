@@ -23,6 +23,7 @@
                     <li role="presentation"><a href="#">Connaissances </a></li>
                     <li role="presentation"><a href="veille.php">Veille technologique</a></li>
                     <li role="presentation"><a href="contact.php">Contact </a></li>
+                    <li role="presentation"><a href="comment.php">C'est à vous </a></li>
                 </ul>
             </div>
         </div>
@@ -113,32 +114,7 @@
        
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    <div></div>
-    <div></div>
-    <header></header>
+  
     <footer class="container-fluid text-center bg-lightgray">
 
         <div class="copyrights" style="margin-top:5px; ">
@@ -150,10 +126,8 @@
         </div>
 </footer>
 
-
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/Contact-FormModal-Contact-Form-with-Google-Map.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/effet.js"></script>
 </body>
 

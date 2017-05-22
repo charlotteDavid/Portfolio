@@ -16,8 +16,9 @@ if(!array_key_exists('message', $_POST) || $_POST['message'] == '') {
   if(!empty($errors)){ // si erreur on renvoie vers la page précédente
   $_SESSION['errors'] = $errors;//on stocke les erreurs
   $_SESSION['inputs'] = $_POST;
-  header('Location: contact.html');
-  }else{
+  header('Location: contact.php');
+  }
+  else{
   $_SESSION['success'] = 1;
   $headers  = 'MIME-Version: 1.0' . "\r\n";
   $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
@@ -43,3 +44,4 @@ if(!array_key_exists('message', $_POST) || $_POST['message'] == '') {
 mail($to, $subject, $message_content, $headers);
   header('Location: contact.php');
   }
+  
