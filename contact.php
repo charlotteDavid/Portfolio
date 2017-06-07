@@ -34,14 +34,16 @@
         <div class="container">
            <div class="row">
             <div class="col-md-6">
-                <form method="post" action="post_contact.php">
+                <form method="post" action="post_contact.php" id="contactform">
                  <h2 class="text-center">Contact </h2>
-                 <div class="form-group has-success has-feedback">
-                     <input class="form-control" type="text" name="name" placeholder="Name" /></div>
-                 <div class="form-group has-success has-feedback" >
+                 
+                     <div id="form-champ">
+                     <input class="form-control" type="text" name="name" placeholder="Name" />
+                     </div><br>
+                     <div id="form-champ">
                     <input class="form-control" type="email" name="email" placeholder="Email" />
-                 </div>
-                 <div class="form-group">
+                     </div><br>
+                 <div id="form-champ">
                     <textarea class="form-control" rows="10" name="message" placeholder="Message"></textarea>
                  </div>
                  <div class="form-group">
@@ -68,6 +70,9 @@
     </footer>
     
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/messages_fr.js"></script>
+    <script src="assets/js/validation.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/effet.js"></script>
 

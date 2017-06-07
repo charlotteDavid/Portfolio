@@ -41,11 +41,43 @@
     <div class="container" >
 	<div class="row">
 		<div class="timeline-centered" style="padding-top:6%;">
+        <article class="timeline-entry left-aligned">
+		
+		<div class="timeline-entry-inner">
+			<time class="timeline-time" datetime="2014-01-10T03:45"><span>Mars 2017</span></time>
+			
+			<div class="timeline-icon bg-secondary">
+				<i class="entypo-suitcase"></i>
+			</div>			
+			<div class="timeline-label">
+			<h2>Stage de 6 semaines à Data Story(Vannes)</h2>
+                         <a href="https://www.datastory.fr/" target="_blank"><img class="img-responsive" src="assets/img/data.png" alt="dataStory" style="border:2px solid black;"></a>
+			               
+			</div>
+		</div>
+
+	</article>
+	<article class="timeline-entry">
+		
+		<div class="timeline-entry-inner">
+			<time class="timeline-time" style="left: -120px;"><span>Novembre 2016</span> </time>
+			
+			<div class="timeline-icon bg-success">
+				<i class="entypo-feather"></i>
+			</div>
+			
+			<div class="timeline-label">
+				<h2>Stage de 4 semaines à Imagina(Vannes) </h2>
+                                <a href="https://connect.imagina.io/" target="_blank" style="font-size:medium;"><img class="img-responsive" src="assets/img/imagina.png" alt="imagina"></a>
+			</div>
+		</div>
+	</article>     
+
     
 	<article class="timeline-entry">
 		
 		<div class="timeline-entry-inner">
-			<time class="timeline-time" ><span>2016-2017</span> <span></span></time>
+			<time class="timeline-time" ><span>2016-2017</span> </time>
 			
 			<div class="timeline-icon bg-success">
 				<i class="entypo-feather"></i>
@@ -59,26 +91,22 @@
 	<article class="timeline-entry left-aligned">
 		
 		<div class="timeline-entry-inner">
-			<time class="timeline-time" datetime="2014-01-10T03:45"><span>2012-2016</span> <span></span></time>
+			<time class="timeline-time" datetime="2014-01-10T03:45"><span>2012-2016</span></time>
 			
 			<div class="timeline-icon bg-secondary">
 				<i class="entypo-suitcase"></i>
-			</div>
-			
+			</div>			
 			<div class="timeline-label">
-				<h2>Infirmiere dans différents services</h2>
-                <p>EHPAD, chirurgie, médecine , soins de suite...</p>
-                <img class="img-responsive" src="assets/img/IDE_Cha.jpg">
-				
-                
+			<h2>Infirmiere dans différents services</h2>
+                        <p style="float:left;">EHPAD, chirurgie, médecine , soins de suite...</p>
+                        <img class="img-responsive" src="assets/img/IDE_Cha.jpg">				               
 			</div>
 		</div>
 
 	</article>
-	<article class="timeline-entry" >
-		
+	<article class="timeline-entry" >		
 		<div class="timeline-entry-inner" >
-			<time class="timeline-time" ><span> Hiver 2014</span> <span></span></time>
+			<time class="timeline-time" ><span> Hiver 2014</span></time>
 			
 			<div class="timeline-icon bg-success">
 				<i class="entypo-feather"></i>
@@ -159,7 +187,7 @@
 	<article class="timeline-entry">
 		
 		<div class="timeline-entry-inner">
-			<time class="timeline-time" datetime="2014-01-10T03:45"><span>2009-2012</span> <span></span></time>
+			<time class="timeline-time" datetime="2014-01-10T03:45"><span>2009-2012</span></time>
 			
 			<div class="timeline-icon bg-success">
 				<i class="entypo-feather"></i>
@@ -176,7 +204,7 @@
 	<article class="timeline-entry left-aligned">
 		
 		<div class="timeline-entry-inner">
-			<time class="timeline-time" datetime="2014-01-10T03:45"><span>Juillet 2008</span> <span></span></time>
+			<time class="timeline-time" datetime="2014-01-10T03:45"><span>Juillet 2008</span></time>
 			
 			<div class="timeline-icon bg-warning">
 				<i class="entypo-camera"></i>
